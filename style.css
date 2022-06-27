@@ -5,3 +5,123 @@
   text-decoration: none;
   font-size: 0.9rem;
 }
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.section-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.div-login{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.section-login .img-phone{
+  width: 35%;
+  height: 500px;
+  margin-right: 40px;
+}
+
+.section-login .img-phone img{
+  height: 100%;
+  width: 100%;
+  
+}
+
+.section-login .content-login{
+  width: 20%;
+}
+
+.container-login{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #DBDBDB;
+  justify-content: center;
+  text-align: center;
+  min-width: 400px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.container-login .form-login{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-login .img-text-instagram{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.form-login input[type=text]{
+  border: 1px solid #DBDBDB;
+  margin-bottom: 10px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.form-login input[type=text]:focus{
+  outline: none !important;
+  border:1px solid #767676;
+}
+
+.form-login .btn-login{
+  background-color: #0095F6;
+  color: #ffff;
+  padding: 6px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.container-login p{
+  color: #767676;
+}
+
+.container-login a img{
+  height: 20px;
+  margin-right: 2px;
+}
+
+.container-login .login-with-facebook div{
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.container-login .forgot-password{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.container-login .div-create-account{
+  display: flex;
+  justify-content: center;
+}
+
+.container-login .div-create-account p{
+  margin-right: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.container-login .div-create-account a{
+  color: #0095F6;
+  font-size: 16px;
+}
+
+
+
