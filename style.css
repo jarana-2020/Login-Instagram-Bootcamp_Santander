@@ -19,9 +19,9 @@ main{
   width: 100%;
 }
 
-.div-login{
+.section-login .div-login{
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: center;
 }
 
@@ -31,14 +31,14 @@ main{
   margin-right: 40px;
 }
 
-.section-login .img-phone img{
+.section-login .img-phone .img-celphone{
   height: 100%;
   width: 100%;
   
 }
 
-.section-login .content-login{
-  width: 20%;
+.div-login .image-instagram{
+  display: none;
 }
 
 .container-login{
@@ -122,6 +122,43 @@ main{
   color: #0095F6;
   font-size: 16px;
 }
+
+@media (min-width: 1025px) and (max-width: 1400px){
+  .section-login .div-login .img-phone{
+    width: 350px;
+    height: 350px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .section-login .div-login{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+  }
+
+  .div-login .img-phone{
+    height: 10%;
+    width: 20%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .div-login .img-celphone {
+    display: none;
+  }
+
+  .div-login .image-instagram{
+    display: inherit;
+    height: 100%;
+    width: 100%;
+  }
+}
+
 
 
 
