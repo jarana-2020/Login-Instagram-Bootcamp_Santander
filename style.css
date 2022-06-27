@@ -123,6 +123,24 @@ main{
   font-size: 16px;
 }
 
+.download-app{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.download-app a img{
+  width: 130px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.content-login p{
+  text-align: center;
+  font-size: 14px;
+}
+
 @media (min-width: 1025px) and (max-width: 1400px){
   .section-login .div-login .img-phone{
     width: 350px;
